@@ -1,0 +1,96 @@
+
+.button {
+    border-radius: 0;
+    border: none;
+  }
+ .card{
+      width: auto;
+      height: auto;
+      height: 650px;
+      background-color:white
+  }
+  .card-content.login {
+    background-image: url('./images/bluegrad.jpg');
+    background-size: cover;
+    border: none;
+    height: 700px;
+    width: 400px;
+    padding: 20px;
+  }
+  .card-footer-item.register {
+    background-color: #284863;
+    width: 400px;
+    color: #c4d1ff;
+  }
+  
+  .input{
+    border-width:1px;
+    border-radius:15px;
+  }
+  
+  .card-footer {
+    width: 400px;
+    border: none;
+  }
+  .label {
+    font-weight: 350;
+  }
+  
+  .img5 ,.img2 ,.img3,.img4{
+    background: url('https://images.unsplash.com/photo-1431492299426-2ea1ce429cc0?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .fmimg5,.fmimg2 ,.fmimg3,.fmimg4{
+   background: url('https://store-images.s-microsoft.com/image/apps.37335.9007199266251864.8b8cb529-3801-4023-9e40-4bcf503b65f5.340138b0-f04d-4e52-a43a-a44ce20b8582?mode=crop&q=90&h=270&w=270&format=jpg&background=%23ffffff');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .limg5 ,.limg2 ,.limg3,.limg4{
+    background: url('https://images.unsplash.com/photo-1431492299426-2ea1ce429cc0?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .column {
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    font-size: 1em;
+  -webkit-box-shadow: -7px 11px 25px -9px rgba(0,0,0,1);
+  -moz-box-shadow: -7px 11px 25px -9px rgba(0,0,0,1);
+  box-shadow: -7px 11px 25px -9px rgba(0,0,0,1);
+  }
+  
+  .column p {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+  }
+  
+  .brand {
+    min-height: 3rem;
+    background: #212;
+  }
+  
+  .brand-title, .brand-title:hover, .brand-title:focus {
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: 0.6rem;
+    text-transform: uppercase;
+  }
+
+.img{
+  width: 230px;
+  height: 100px;
+}
+
+.is-active{
+  border-inline-start-color: red;
+}
+.play{
+  background-color: aliceblue;
+  background-size: 100% 150%;
+  height: 100%;
+  width: 100%;
+  background-repeat: repeat;
+}
